@@ -1,0 +1,45 @@
+Container 'C:\Users\use\Desktop\Scene000.vs'
+-------------------------------------------------------------------------------
+tmp/Visionaire Karneval/BG-tatort_png.webp
+tmp/Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc1_png.webp
+tmp/Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc2_png.webp
+tmp/Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc3_png.webp
+tmp/Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc4_png.webp
+tmp/Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc5_png.webp
+tmp/Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc6_png.webp
+tmp/Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc7_png.webp
+Visionaire Karneval/Audios/zettel_aus_westentasche.ogg
+tmp/Visionaire Karneval/ausrufezeichen_png.webp
+tmp/Visionaire Karneval/Grafiken/Zettel-Westentasche-groß_png.webp
+tmp/Visionaire Karneval/Grafiken/Absinth-groß_png.webp
+tmp/Visionaire Karneval/Grafiken/Pralinenschachtel-groß_png.webp
+tmp/Visionaire Karneval/Grafiken/Brief-Schachtel-groß_png.webp
+tmp/Visionaire Karneval/Grafiken/Absinth-klein_png.webp
+tmp/Visionaire Karneval/Grafiken/Pralinenschachtel-klein_png.webp
+tmp/Visionaire Karneval/Grafiken/Brief-schachtel-Klein_png.webp
+--------------------------------------------------------------------------------
+Container 'C:\Users\use\Desktop\Interfaces.vi'
+-------------------------------------------------------------------------------
+tmp/Visionaire Karneval/textbox_png.webp
+tmp/Visionaire Karneval/Grafiken/Unbenanntes_Projekt_png.webp
+tmp/Visionaire Karneval/Grafiken/Ton-aus_png.webp
+tmp/Visionaire Karneval/Ton An_png.webp
+Visionaire Karneval/Audios/background-music-tatort.ogg
+--------------------------------------------------------------------------------
+Container 'C:\Users\use\Desktop\Karneval_Erste Szene.vis'
+-------------------------------------------------------------------------------
+Team/05 MARKETING/Corporate Identity/SCHRIFTARTEN/MortysMarmeladeFont.ttf
+MARKETING/Corporate Identity/SCHRIFTARTEN/MortysMadnessFont.ttf
+tmp/Visionaire Karneval/cursor_png.webp
+game.veb
+--------------------------------------------------------------------------------
+
+Containers:
+
+
+Interfaces.vi 0 
+
+Karneval_Erste Szene.vis 0 
+
+Scene000.vs 0 Tatort
+

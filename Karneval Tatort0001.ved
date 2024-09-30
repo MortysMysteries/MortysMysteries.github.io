@@ -1,0 +1,2413 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VisionaireAdventure projectType="1" revision="1" version="207">
+	<Game name="" id="1" order="1" lastModified="-1" GameId="10237" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="2" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="F" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="F" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="2" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="Morty's Mysteries" GameGameName="Investigator" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="" GameSmoothScrolling="F" GameSaveNameOffsetY="-1" GameLeftClickBehaviour="1" GameMinimumTurnAngle="30" GameMinimumWalkTurnAngle="60" GameLimitFramerate="0" GameMinDelayBetweenTextSkips="-1" GameSkipTextTransitionFirst="F" GameActivateMipmapping="F" GameActivateMultiresolution="F" GameCommentWithStandardCommand="F" GameDialogTextAlignment="-1">
+		<GameSceneLinks>
+			<Link parentLink="T" id="0" tableId="4" LinkAny="F"/>
+		</GameSceneLinks>
+		<GameCharacterLinks>
+			<Link parentLink="T" id="0" tableId="0" LinkAny="F"/>
+		</GameCharacterLinks>
+		<GameInterfaces>
+			<Link parentLink="T" id="0" tableId="1" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="1" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="1" LinkAny="F"/>
+			<Link parentLink="T" id="3" tableId="1" LinkAny="F"/>
+		</GameInterfaces>
+		<GameFontLinks>
+			<Link parentLink="T" id="0" tableId="3" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="3" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="3" LinkAny="F"/>
+			<Link parentLink="T" id="3" tableId="3" LinkAny="F"/>
+			<Link parentLink="T" id="4" tableId="3" LinkAny="F"/>
+		</GameFontLinks>
+		<GameLanguages>
+			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="18" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="18" LinkAny="F"/>
+		</GameLanguages>
+		<GameFirstScene parentLink="F" id="0" tableId="4" LinkAny="F"/>
+		<GameItems>
+		</GameItems>
+		<GameLoading parentLink="T" id="0" tableId="21" LinkAny="F"/>
+		<GameWindowResolution x="1920" y="1080"/>
+		<GameCursors>
+			<Link parentLink="T" id="0" tableId="15" LinkAny="F"/>
+		</GameCursors>
+		<GameFirstCharacter parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		<GameStandardLanguage parentLink="F" id="1" tableId="18" LinkAny="F"/>
+		<GameActions>
+			<Link parentLink="T" id="0" tableId="7" LinkAny="F"/>
+		</GameActions>
+		<GameStartAction parentLink="T" id="2" tableId="7" LinkAny="F"/>
+		<GameRightClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameLeftDblClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameLeftHoldAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameLeftHoldingAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameParticleContainerLinks>
+		</GameParticleContainerLinks>
+		<GameLeftClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameActionTextFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
+		<GameActionTextRect top="-1" left="-1" bottom="-3" right="-3"/>
+		<GameScriptLinks>
+		</GameScriptLinks>
+		<GameInterfaceClasses>
+			<Link parentLink="T" id="0" tableId="31" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="31" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="31" LinkAny="F"/>
+			<Link parentLink="T" id="3" tableId="31" LinkAny="F"/>
+			<Link parentLink="T" id="4" tableId="31" LinkAny="F"/>
+			<Link parentLink="T" id="5" tableId="31" LinkAny="F"/>
+		</GameInterfaceClasses>
+		<GameObjectFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
+		<GameVideoSubtitleFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameVideoSubtitlePosition x="-1" y="-1"/>
+		<GameMiddleClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameMouseWheelUpAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameMouseWheelDownAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameContainers>
+		</GameContainers>
+		<GameBuildRules>
+		</GameBuildRules>
+		<GameShaderLinks>
+		</GameShaderLinks>
+		<GameAudioMixLinks>
+			<Link parentLink="T" id="0" tableId="37" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="37" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="37" LinkAny="F"/>
+			<Link parentLink="T" id="3" tableId="37" LinkAny="F"/>
+		</GameAudioMixLinks>
+		<GameAudioContainerLinks>
+		</GameAudioContainerLinks>
+		<GameDefaultSpeechBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameDefaultSoundBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameWalksoundBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameDefaultMusicBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameCustomActionParts>
+		</GameCustomActionParts>
+		<GamePlugins>
+		</GamePlugins>
+		<GameBlockContainers>
+		</GameBlockContainers>
+		<GameWaitCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
+		<GameBehaviours>
+		</GameBehaviours>
+		<GameAdditionalFolders>
+		</GameAdditionalFolders>
+		<GameDefaultMovieBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+	</Game>
+	<Loadings newId="1" versionedId="0" tableId="21">
+		<Loading name="Unnamed" id="0" order="0" lastModified="-1" LoadingMusic="" LoadingStatusCover="F">
+			<LoadingSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</LoadingSprite>
+			<LoadingStatusSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</LoadingStatusSprite>
+		</Loading>
+	</Loadings>
+	<Characters newId="1" versionedId="0" tableId="0">
+		<Character name="Spieler" id="0" order="0" lastModified="-1" CharacterWalkingSound="" CharacterScale="F" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F" CharacterRandomAnimationDisabled="F">
+			<CharacterName parentLink="T" id="2" tableId="14" LinkAny="F"/>
+			<CharacterInterfaces>
+				<Link parentLink="F" id="0" tableId="1" LinkAny="F"/>
+				<Link parentLink="F" id="1" tableId="1" LinkAny="F"/>
+			</CharacterInterfaces>
+			<CharacterFont parentLink="F" id="2" tableId="3" LinkAny="F"/>
+			<CharacterCurrentOutfit parentLink="F" id="0" tableId="17" LinkAny="F"/>
+			<CharacterCurrentCommentSet parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<CharacterDialogCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
+			<CharacterDialogs>
+			</CharacterDialogs>
+			<CharacterActions>
+			</CharacterActions>
+			<CharacterOutfits>
+				<Link parentLink="T" id="0" tableId="17" LinkAny="F"/>
+			</CharacterOutfits>
+			<CharacterCommentSets>
+			</CharacterCommentSets>
+			<CharacterStartObject parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<CharacterValues>
+			</CharacterValues>
+			<CharacterConditions>
+			</CharacterConditions>
+			<CharacterActiveDialogFont parentLink="F" id="2" tableId="3" LinkAny="F"/>
+			<CharacterInactiveDialogFont parentLink="F" id="2" tableId="3" LinkAny="F"/>
+			<CharacterDialogArea top="0" left="0" bottom="-1" right="-1"/>
+			<CharacterDialogActiveScrollUp name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</CharacterDialogActiveScrollUp>
+			<CharacterDialogInactiveScrollUp name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</CharacterDialogInactiveScrollUp>
+			<CharacterDialogActiveScrollDown name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</CharacterDialogActiveScrollDown>
+			<CharacterDialogInactiveScrollDown name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</CharacterDialogInactiveScrollDown>
+			<CharacterDialogSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</CharacterDialogSprite>
+			<CharacterActionDestPosition x="-1" y="-1"/>
+			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<CharacterComponents>
+			</CharacterComponents>
+			<CharacterActiveUsedDialogFont parentLink="F" id="3" tableId="3" LinkAny="F"/>
+			<CharacterInactiveUsedDialogFont parentLink="F" id="3" tableId="3" LinkAny="F"/>
+			<CharacterStartScene parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<CharacterStartPos x="0" y="0"/>
+			<CharacterSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<CharacterSnoopAnimationOffsetPos x="0" y="0"/>
+		</Character>
+	</Characters>
+	<Interfaces newId="4" versionedId="3" tableId="1">
+		<Interface name="LMB" id="0" order="0" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+			<InterfaceSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</InterfaceSprite>
+			<InterfaceButtons>
+				<Link parentLink="T" id="0" tableId="2" LinkAny="F"/>
+			</InterfaceButtons>
+			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceOffset x="0" y="0"/>
+			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
+			<InterfaceBorder>
+			</InterfaceBorder>
+			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceConditions>
+			</InterfaceConditions>
+			<InterfaceValues>
+			</InterfaceValues>
+			<InterfaceInterfaceClass parentLink="F" id="0" tableId="31" LinkAny="F"/>
+			<InterfaceComponents>
+			</InterfaceComponents>
+		</Interface>
+		<Interface name="NarrBox_UI" id="1" order="1" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+			<InterfaceSprite name="" pause="-1" path="Visionaire Karneval/textbox.png" Transparency="2">
+				<position x="0" y="0"/>
+			</InterfaceSprite>
+			<InterfaceButtons>
+			</InterfaceButtons>
+			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceOffset x="0" y="0"/>
+			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceActionTextRect top="677" left="2260" bottom="688" right="2271"/>
+			<InterfaceBorder>
+			</InterfaceBorder>
+			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceConditions>
+			</InterfaceConditions>
+			<InterfaceValues>
+			</InterfaceValues>
+			<InterfaceInterfaceClass parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<InterfaceComponents>
+			</InterfaceComponents>
+		</Interface>
+		<Interface name="Inventory" id="2" order="2" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="0" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+			<InterfaceSprite name="" pause="-1" path="Visionaire Karneval/Grafiken/Unbenanntes_Projekt.png" Transparency="2">
+				<position x="0" y="0"/>
+			</InterfaceSprite>
+			<InterfaceButtons>
+				<Link parentLink="T" id="1" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="2" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="3" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="4" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="5" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="6" tableId="2" LinkAny="F"/>
+			</InterfaceButtons>
+			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceOffset x="-2" y="-2"/>
+			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
+			<InterfaceBorder>
+			</InterfaceBorder>
+			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceConditions>
+			</InterfaceConditions>
+			<InterfaceValues>
+			</InterfaceValues>
+			<InterfaceInterfaceClass parentLink="F" id="1" tableId="31" LinkAny="F"/>
+			<InterfaceComponents>
+			</InterfaceComponents>
+		</Interface>
+		<Interface name="Sound" id="3" order="3" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="0" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+			<InterfaceSprite name="" pause="-1" path="Visionaire Karneval/Grafiken/Ton-aus.png" Transparency="2">
+				<position x="0" y="0"/>
+			</InterfaceSprite>
+			<InterfaceButtons>
+				<Link parentLink="T" id="7" tableId="2" LinkAny="F"/>
+			</InterfaceButtons>
+			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceOffset x="0" y="0"/>
+			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
+			<InterfaceBorder>
+			</InterfaceBorder>
+			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceConditions>
+			</InterfaceConditions>
+			<InterfaceValues>
+			</InterfaceValues>
+			<InterfaceInterfaceClass parentLink="F" id="0" tableId="31" LinkAny="F"/>
+			<InterfaceComponents>
+			</InterfaceComponents>
+		</Interface>
+	</Interfaces>
+	<Buttons newId="8" versionedId="7" tableId="2">
+		<Button name="LMB click" id="0" order="0" lastModified="-1" ButtonType="3" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="0" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="1" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
+			<ButtonName parentLink="T" id="0" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="1" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+			</ButtonPolygon>
+			<ButtonActions>
+				<Link parentLink="T" id="1" tableId="7" LinkAny="F"/>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonComponents>
+			</ButtonComponents>
+		</Button>
+		<Button name="Slot1" id="1" order="0" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="7" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="8" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="74" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="75" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="130" y="53"/>
+				<point x="119" y="213"/>
+				<point x="317" y="224"/>
+				<point x="320" y="55"/>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonComponents>
+			</ButtonComponents>
+		</Button>
+		<Button name="Slot2" id="2" order="1" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="9" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="10" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="76" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="77" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="329" y="46"/>
+				<point x="324" y="215"/>
+				<point x="545" y="222"/>
+				<point x="547" y="58"/>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonComponents>
+			</ButtonComponents>
+		</Button>
+		<Button name="Slot3" id="3" order="2" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="11" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="12" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="78" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="79" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="605" y="53"/>
+				<point x="607" y="235"/>
+				<point x="859" y="224"/>
+				<point x="846" y="42"/>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonComponents>
+			</ButtonComponents>
+		</Button>
+		<Button name="Slot4" id="4" order="3" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="13" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="14" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="80" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="81" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="912" y="39"/>
+				<point x="917" y="204"/>
+				<point x="1174" y="206"/>
+				<point x="1161" y="48"/>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonComponents>
+			</ButtonComponents>
+		</Button>
+		<Button name="Slot5" id="5" order="4" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="15" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="16" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="82" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="83" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="1208" y="49"/>
+				<point x="1204" y="204"/>
+				<point x="1204" y="204"/>
+				<point x="1436" y="208"/>
+				<point x="1440" y="40"/>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonComponents>
+			</ButtonComponents>
+		</Button>
+		<Button name="Slot6" id="6" order="5" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="17" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="18" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="84" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="85" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="1484" y="42"/>
+				<point x="1486" y="203"/>
+				<point x="1748" y="197"/>
+				<point x="1730" y="28"/>
+				<point x="1486" y="37"/>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonComponents>
+			</ButtonComponents>
+		</Button>
+		<Button name="Sound on" id="7" order="0" lastModified="-1" ButtonType="4" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="30" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="31" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="160" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="161" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="1678" y="26"/>
+				<point x="1687" y="220"/>
+				<point x="1893" y="226"/>
+				<point x="1895" y="10"/>
+			</ButtonPolygon>
+			<ButtonActions>
+				<Link parentLink="T" id="42" tableId="7" LinkAny="F"/>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonComponents>
+			</ButtonComponents>
+		</Button>
+	</Buttons>
+	<Fonts newId="5" versionedId="4" tableId="3">
+		<Font name="Default" id="0" order="0" lastModified="-1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="0" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="Team/05 MARKETING/Corporate Identity/SCHRIFTARTEN/MortysMarmeladeFont.ttf" FontSize="41.000000" FontColor="16777215" FontBorder="F" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T" FontShadowColor="-16777216">
+			<FontSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</FontSprite>
+			<FontLetters>
+			</FontLetters>
+			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<FontShadowOffset x="1" y="1"/>
+			<FontSubtypes>
+			</FontSubtypes>
+		</Font>
+		<Font name="Hervorgehoben" id="1" order="1" lastModified="-1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="0" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="Team/05 MARKETING/Corporate Identity/SCHRIFTARTEN/MortysMarmeladeFont.ttf" FontSize="41.000000" FontColor="1973838" FontBorder="T" FontBorderColor="4474013" FontBorderSize="1.100000" FontShadow="T" FontShadowColor="-1">
+			<FontSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</FontSprite>
+			<FontLetters>
+			</FontLetters>
+			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<FontShadowOffset x="1" y="1"/>
+			<FontSubtypes>
+			</FontSubtypes>
+		</Font>
+		<Font name="Dialoge" id="2" order="2" lastModified="-1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="-1" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="MARKETING/Corporate Identity/SCHRIFTARTEN/MortysMadnessFont.ttf" FontSize="30.000000" FontColor="16777215" FontBorder="F" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T" FontShadowColor="-16777216">
+			<FontSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</FontSprite>
+			<FontLetters>
+			</FontLetters>
+			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<FontShadowOffset x="1" y="1"/>
+			<FontSubtypes>
+			</FontSubtypes>
+		</Font>
+		<Font name="Dialoge hervorgehoben" id="3" order="3" lastModified="-1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="-1" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="MARKETING/Corporate Identity/SCHRIFTARTEN/MortysMadnessFont.ttf" FontSize="30.000000" FontColor="6184542" FontBorder="F" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T" FontShadowColor="-16119222">
+			<FontSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</FontSprite>
+			<FontLetters>
+			</FontLetters>
+			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<FontShadowOffset x="1" y="1"/>
+			<FontSubtypes>
+			</FontSubtypes>
+		</Font>
+		<Font name="Erzähler" id="4" order="4" lastModified="-1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="-1" VerticalLetterSpacing="5" FontSpaceWidth="10" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="MARKETING/Corporate Identity/SCHRIFTARTEN/MortysMadnessFont.ttf" FontSize="27.000000" FontColor="0" FontBorder="F" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="F" FontShadowColor="-16777216">
+			<FontSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</FontSprite>
+			<FontLetters>
+			</FontLetters>
+			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<FontShadowOffset x="1" y="1"/>
+			<FontSubtypes>
+			</FontSubtypes>
+		</Font>
+	</Fonts>
+	<Scenes newId="1" versionedId="0" tableId="4">
+		<Scene name="Tatort" id="0" order="0" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="" SceneSaveTextAlignment="-1">
+			<SceneSprite name="" pause="-1" path="Visionaire Karneval/BG-tatort.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SceneSprite>
+			<SceneName parentLink="T" id="3" tableId="14" LinkAny="F"/>
+			<SceneObjects>
+				<Link parentLink="T" id="0" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="1" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="2" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="4" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="8" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="9" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="12" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="15" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="21" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="23" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="24" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="25" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="26" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="27" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="28" tableId="6" LinkAny="F"/>
+			</SceneObjects>
+			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneSavegameAreas>
+			</SceneSavegameAreas>
+			<SceneValues>
+			</SceneValues>
+			<SceneConditions>
+				<Link parentLink="T" id="2" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="4" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="5" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="6" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="7" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="8" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="10" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="11" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="12" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="13" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="15" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="16" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="17" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="18" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="19" tableId="10" LinkAny="F"/>
+			</SceneConditions>
+			<SceneActions>
+			</SceneActions>
+			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
+			<SceneWaySystems>
+			</SceneWaySystems>
+			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneActionAreas>
+			</SceneActionAreas>
+			<SceneAudioBusses>
+			</SceneAudioBusses>
+			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneCurves>
+			</SceneCurves>
+			<SceneComponents>
+			</SceneComponents>
+			<SceneSaveTextOffset x="0" y="0"/>
+		</Scene>
+	</Scenes>
+	<Points newId="0" versionedId="-1" tableId="5">
+	</Points>
+	<Objects newId="29" versionedId="28" tableId="6">
+		<Object name="obj_direktor" id="0" order="19" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="4" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="724" y="730"/>
+				<point x="715" y="731"/>
+				<point x="406" y="798"/>
+				<point x="315" y="761"/>
+				<point x="234" y="743"/>
+				<point x="151" y="819"/>
+				<point x="57" y="904"/>
+				<point x="250" y="1097"/>
+				<point x="359" y="1055"/>
+				<point x="422" y="1066"/>
+				<point x="479" y="1027"/>
+				<point x="487" y="964"/>
+				<point x="731" y="972"/>
+				<point x="794" y="930"/>
+				<point x="820" y="983"/>
+				<point x="846" y="980"/>
+				<point x="830" y="878"/>
+				<point x="799" y="806"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="6" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="-1" y="-1"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="obj_arzt" id="1" order="21" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="25" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="1372" y="905"/>
+				<point x="1341" y="949"/>
+				<point x="1372" y="989"/>
+				<point x="1455" y="1043"/>
+				<point x="1538" y="1030"/>
+				<point x="1651" y="922"/>
+				<point x="1647" y="816"/>
+				<point x="1605" y="785"/>
+				<point x="1534" y="772"/>
+				<point x="1438" y="799"/>
+				<point x="1351" y="782"/>
+				<point x="1336" y="793"/>
+				<point x="1232" y="745"/>
+				<point x="1147" y="745"/>
+				<point x="1080" y="793"/>
+				<point x="1082" y="866"/>
+				<point x="1209" y="897"/>
+				<point x="1301" y="903"/>
+				<point x="1359" y="903"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="7" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="-1" y="-1"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="obj_absinthlache-auf-boden" id="2" order="22" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="27" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="964" y="996"/>
+				<point x="998" y="985"/>
+				<point x="1040" y="988"/>
+				<point x="1089" y="990"/>
+				<point x="1082" y="1000"/>
+				<point x="1022" y="1004"/>
+				<point x="967" y="1004"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="8" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="obj_westentasche" id="4" order="3" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="30" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="1286" y="856"/>
+				<point x="1297" y="834"/>
+				<point x="1294" y="832"/>
+				<point x="1274" y="827"/>
+				<point x="1257" y="839"/>
+				<point x="1254" y="860"/>
+				<point x="1257" y="881"/>
+				<point x="1282" y="885"/>
+				<point x="1283" y="873"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="10" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="11" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="12" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="15" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="-1" y="-1"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="_obj_westentasche_aktiv" id="8" order="6" lastModified="-1" ObjectDirection="-1" ObjectCenter="1047" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="64" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="2" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="4" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="_obj_westentasche_anim_aktiv" id="9" order="8" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="65" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="4" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="17" tableId="9" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="17" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="_obj_westentasche_img_zettel_groß_aktiv" id="12" order="9" lastModified="-1" ObjectDirection="-1" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="72" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="2110" y="929"/>
+				<point x="2139" y="929"/>
+				<point x="-10000" y="-10000"/>
+				<point x="176" y="249"/>
+				<point x="163" y="800"/>
+				<point x="1739" y="833"/>
+				<point x="1777" y="289"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="8" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="6" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="25" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="_obj_westentasche_anim__zettel_endbild" id="15" order="15" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="97" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="5" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="21" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="_obj_absinthflasche_img_groß_aktiv" id="21" order="11" lastModified="-1" ObjectDirection="-1" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="147" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="2110" y="929"/>
+				<point x="2139" y="929"/>
+				<point x="-10000" y="-10000"/>
+				<point x="163" y="800"/>
+				<point x="-10000" y="-10000"/>
+				<point x="884" y="7"/>
+				<point x="891" y="233"/>
+				<point x="773" y="489"/>
+				<point x="786" y="1002"/>
+				<point x="858" y="1064"/>
+				<point x="1090" y="1067"/>
+				<point x="1122" y="1014"/>
+				<point x="1130" y="404"/>
+				<point x="1042" y="256"/>
+				<point x="1017" y="20"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="11" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="23" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="26" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="obj_flasch-mit-absinth" id="23" order="23" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="150" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="572" y="439"/>
+				<point x="-10000" y="-10000"/>
+				<point x="153" y="660"/>
+				<point x="213" y="660"/>
+				<point x="218" y="552"/>
+				<point x="205" y="517"/>
+				<point x="205" y="482"/>
+				<point x="168" y="489"/>
+				<point x="168" y="532"/>
+				<point x="165" y="550"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="25" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="30" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="31" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="32" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="obj_pralinenschachtel" id="24" order="24" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="152" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="848" y="1059"/>
+				<point x="793" y="1002"/>
+				<point x="791" y="904"/>
+				<point x="911" y="904"/>
+				<point x="919" y="982"/>
+				<point x="972" y="1039"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="26" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="34" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="35" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="36" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="_obj_pralinenschachtel_img_groß_aktiv" id="25" order="12" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="153" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="494" y="125"/>
+				<point x="540" y="743"/>
+				<point x="791" y="1062"/>
+				<point x="954" y="1072"/>
+				<point x="1363" y="936"/>
+				<point x="1378" y="688"/>
+				<point x="1162" y="442"/>
+				<point x="1077" y="17"/>
+				<point x="773" y="10"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="13" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="27" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="37" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="obj_blutlache" id="26" order="25" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="154" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="1406" y="1019"/>
+				<point x="1388" y="989"/>
+				<point x="1358" y="977"/>
+				<point x="1331" y="977"/>
+				<point x="1316" y="982"/>
+				<point x="1356" y="1007"/>
+				<point x="1376" y="1037"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="33" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="obj_brief_heirat" id="27" order="26" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="157" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="836" y="1039"/>
+				<point x="750" y="1037"/>
+				<point x="778" y="974"/>
+				<point x="816" y="1002"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="28" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="38" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="39" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="40" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+		<Object name="_obj_brief_heirat_img_groß_aktiv" id="28" order="13" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+			<ObjectName parentLink="T" id="158" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="459" y="65"/>
+				<point x="853" y="20"/>
+				<point x="1414" y="32"/>
+				<point x="1461" y="585"/>
+				<point x="1481" y="1014"/>
+				<point x="994" y="1049"/>
+				<point x="537" y="1059"/>
+				<point x="477" y="700"/>
+				<point x="509" y="474"/>
+				<point x="464" y="406"/>
+				<point x="457" y="52"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="17" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="29" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="41" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
+	</Objects>
+	<Actions newId="43" versionedId="42" tableId="7">
+		<Action name="Escape" id="0" order="0" lastModified="-1" ActionExecutionType="27" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="0" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="1" order="0" lastModified="-1" ActionExecutionType="7" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+			</ActionActionParts>
+		</Action>
+		<Action name="Aktion" id="2" order="2" lastModified="-1" ActionExecutionType="-1" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'LMB click' executed (immediate)" id="6" order="1" lastModified="-1" ActionExecutionType="17" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="14" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="15" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="16" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'LMB click' executed (immediate)" id="7" order="0" lastModified="-1" ActionExecutionType="17" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="17" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="18" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="19" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'LMB click' executed (immediate)" id="8" order="0" lastModified="-1" ActionExecutionType="17" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="20" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="21" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="22" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters object area" id="10" order="0" lastModified="-1" ActionExecutionType="1" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="34" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="64" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="67" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="68" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="75" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves object area" id="11" order="1" lastModified="-1" ActionExecutionType="2" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="36" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="12" order="2" lastModified="-1" ActionExecutionType="7" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="30" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="31" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="32" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="37" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="56" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="57" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="60" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="77" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="97" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="25" order="0" lastModified="-1" ActionExecutionType="7" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="115" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="117" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="26" order="0" lastModified="-1" ActionExecutionType="7" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="119" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="120" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters object area" id="30" order="0" lastModified="-1" ActionExecutionType="1" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="136" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="137" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="138" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="139" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="140" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves object area" id="31" order="1" lastModified="-1" ActionExecutionType="2" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="141" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="32" order="2" lastModified="-1" ActionExecutionType="7" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="142" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="143" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="144" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="145" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="146" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="147" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="33" order="0" lastModified="-1" ActionExecutionType="7" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="148" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="149" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="150" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters object area" id="34" order="0" lastModified="-1" ActionExecutionType="1" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="157" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="158" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="159" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="160" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="161" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves object area" id="35" order="1" lastModified="-1" ActionExecutionType="2" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="162" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="36" order="2" lastModified="-1" ActionExecutionType="7" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="163" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="164" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="165" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="166" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="170" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="171" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="37" order="0" lastModified="-1" ActionExecutionType="7" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="172" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="173" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters object area" id="38" order="0" lastModified="-1" ActionExecutionType="1" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="174" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="175" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="176" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="177" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="178" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves object area" id="39" order="1" lastModified="-1" ActionExecutionType="2" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="179" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="40" order="2" lastModified="-1" ActionExecutionType="7" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="180" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="181" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="182" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="183" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="184" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="185" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="41" order="0" lastModified="-1" ActionExecutionType="7" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="186" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="187" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="42" order="0" lastModified="-1" ActionExecutionType="7" ActionDisabled="F">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="189" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="192" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+	</Actions>
+	<ActionParts newId="193" versionedId="192" tableId="8">
+		<ActionPart name="Spiel beenden" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'NarrBoxInterface'" id="1" order="0" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="" id="2" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="T" id="5" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show 'NarrBoxInterface'" id="14" order="0" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'NarrBoxInterface'" id="15" order="2" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Narration: Der Direktor ist mausetot.&lt;br/&gt;Aber ich sehe keine Verletzungen..." id="16" order="1" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="1375" ActionPartAltInt="400" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="T" id="24" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="4" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show 'NarrBoxInterface'" id="17" order="0" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'NarrBoxInterface'" id="18" order="2" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Narration: Dr. Robert Thomas ist hinüber..." id="19" order="1" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="1375" ActionPartAltInt="400" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="T" id="26" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="4" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show 'NarrBoxInterface'" id="20" order="0" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'NarrBoxInterface'" id="21" order="2" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Narration: &quot;Dr. Robert Thomas ist tot&quot;" id="22" order="1" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="1375" ActionPartAltInt="400" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="T" id="28" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="4" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show 'NarrBoxInterface'" id="30" order="3" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'NarrBoxInterface'" id="31" order="7" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Narration: Was ist denn das?&lt;br/&gt;Da steckt doch was drin!" id="32" order="4" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="1375" ActionPartAltInt="400" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="T" id="42" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="4" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberWestentasche_aktiv' to true" id="34" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="2" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberWestentasche_aktiv' to false" id="36" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="2" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberWestentasche_aktiv' to false" id="37" order="2" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="2" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wait until animation 'anim_Zettel_kommt_aus_Westentasche' is finished" id="56" order="10" lastModified="-1" ActionPartCommand="22" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="17" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Zettel_kommt_aus_Westentasche_anim' to true" id="57" order="8" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="4" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Zettel_westentasche_ist_draußen' to true" id="60" order="11" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'Zettel_westentasche_ist_draußen' is false" id="64" order="1" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="67" order="2" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'Zettel_westentasche_ist_draußen' is true" id="68" order="3" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberWestentasche_aktiv' to false" id="75" order="4" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="2" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'Zettel_westentasche_ist_draußen' is false" id="77" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Zettel_wird_groß_angezeigt' to true" id="97" order="12" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="8" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Zettel_wird_groß_angezeigt' to false" id="115" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="8" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Zettel_westentasche_ist_draußen' to false" id="117" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Absinthflasche_wird_groß_angezeigt' to false" id="119" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="11" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberAbsinthflasche_aktiv' to false" id="120" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="10" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberAbsinthflasche_aktiv' to true" id="136" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="10" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'Absinthflasche_wird_groß_angezeigt' is false" id="137" order="1" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="11" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="138" order="2" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'Absinthflasche_wird_groß_angezeigt' is true" id="139" order="3" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="11" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberAbsinthflasche_aktiv' to false" id="140" order="4" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="10" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberAbsinthflasche_aktiv' to false" id="141" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="10" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show 'NarrBoxInterface'" id="142" order="3" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'NarrBoxInterface'" id="143" order="7" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Narration: Die Absinthflasche ist offen und es fehlt etwas Flüssigkeit...&lt;br/&gt;Und sie ist staubig!" id="144" order="4" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="1375" ActionPartAltInt="400" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="T" id="151" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="4" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberAbsinthflasche_aktiv' to false" id="145" order="2" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="10" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'Absinthflasche_wird_groß_angezeigt' is false" id="146" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="11" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Absinthflasche_wird_groß_angezeigt' to true" id="147" order="12" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="11" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show 'NarrBoxInterface'" id="148" order="3" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'NarrBoxInterface'" id="149" order="7" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Narration: Der Doktor hat eine Kopfverletzung.&lt;br/&gt;Ob er daran gestorben ist?" id="150" order="4" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="1375" ActionPartAltInt="400" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="T" id="155" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="4" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Pralinenschachtel wird groß angezeigt' to true" id="157" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="13" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'Pralinenschachtel wird groß angezeigt' is false" id="158" order="1" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="13" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="159" order="2" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'Pralinenschachtel wird groß angezeigt' is true" id="160" order="3" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="13" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberPralinenschachtel_aktiv' to false" id="161" order="4" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="15" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Pralinenschachtel wird groß angezeigt' to false" id="162" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="13" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show 'NarrBoxInterface'" id="163" order="3" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'NarrBoxInterface'" id="164" order="7" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Narration: Eine der Pralinen scheint zu fehlen..." id="165" order="4" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="1375" ActionPartAltInt="400" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="T" id="156" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="4" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberPralinenschachtel_aktiv' to false" id="166" order="2" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="15" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'Pralinenschachtel wird groß angezeigt' is false" id="170" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="13" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Pralinenschachtel wird groß angezeigt' to true" id="171" order="12" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="13" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Pralinenschachtel wird groß angezeigt' to false" id="172" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="13" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberPralinenschachtel_aktiv' to false" id="173" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="15" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Brief-wird-groß-angezeigt-aktiv' to true" id="174" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'Brief-wird-groß-angezeigt-aktiv' is false" id="175" order="1" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="176" order="2" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'Brief-wird-groß-angezeigt-aktiv' is true" id="177" order="3" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberBrief' to false" id="178" order="4" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="16" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Brief-wird-groß-angezeigt-aktiv' to false" id="179" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show 'NarrBoxInterface'" id="180" order="3" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'NarrBoxInterface'" id="181" order="7" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Narration: Der Brief scheint zur &lt;br/&gt;Pralinenschachtel zu gehören" id="182" order="4" lastModified="-1" ActionPartCommand="71" ActionPartPath="" ActionPartInt="1375" ActionPartAltInt="400" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="T" id="159" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="4" tableId="3" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberBrief' to false" id="183" order="2" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="16" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'Brief-wird-groß-angezeigt-aktiv' is false" id="184" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Brief-wird-groß-angezeigt-aktiv' to true" id="185" order="12" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Brief-wird-groß-angezeigt-aktiv' to false" id="186" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'MausÜberBrief' to false" id="187" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="16" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play and loop sound 'background-music-tatort.ogg' infinitely" id="189" order="0" lastModified="-1" ActionPartCommand="72" ActionPartPath="Visionaire Karneval/Audios/background-music-tatort.ogg" ActionPartInt="-7" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'Sound_is_on' to true" id="192" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="18" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+	</ActionParts>
+	<Animations newId="19" versionedId="17" tableId="9">
+		<Animation name="Unnamed" id="1" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="0" path="Visionaire Karneval/cursor.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="12" y="10"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="2" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="0" path="Visionaire Karneval/cursor.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="12" y="10"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="front" id="3" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="back" id="4" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="left" id="5" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="right" id="6" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="front" id="7" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="back" id="8" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="left" id="9" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="right" id="10" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="zettelauswestentasche_in_obj_westentasche" id="15" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="180" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc5.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc6.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc7.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+				<Link parentLink="T" id="4" tableId="28" LinkAny="F"/>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="anim_Zettel_kommt_aus_Westentasche" id="17" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="120" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1" AnimationMirrorCopied="F">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc5.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc6.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc7.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+				<Link parentLink="T" id="5" tableId="28" LinkAny="F"/>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+	</Animations>
+	<Conditions newId="20" versionedId="19" tableId="10">
+		<Condition name="MausÜberWestentasche_aktiv" id="2" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+		<Condition name="Zettel_kommt_aus_Westentasche_anim" id="4" order="1" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+		<Condition name="Zettel_westentasche_ist_draußen" id="5" order="2" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+		<Condition name="MausÜberWestentasche_Zettelschondraußen_aktiv" id="6" order="3" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+		<Condition name="Zettel_Westentasche_wird groß angezeigt" id="7" order="4" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+		<Condition name="Zettel_wird_groß_angezeigt" id="8" order="5" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+		<Condition name="MausÜberAbsinthflasche_aktiv" id="10" order="6" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+		<Condition name="Absinthflasche_wird_groß_angezeigt" id="11" order="7" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+		<Condition name="MausÜberAbsinthflasche_aktiv" id="12" order="8" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+		<Condition name="Pralinenschachtel wird groß angezeigt" id="13" order="9" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+		<Condition name="MausÜberPralinenschachtel_aktiv" id="15" order="10" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+		<Condition name="MausÜberBrief" id="16" order="11" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+		<Condition name="Brief-wird-groß-angezeigt-aktiv" id="17" order="12" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+		<Condition name="Sound_is_on" id="18" order="13" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+		<Condition name="sound_is_off" id="19" order="14" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+			<ConditionSettings>
+			</ConditionSettings>
+		</Condition>
+	</Conditions>
+	<Dialogs newId="0" versionedId="-1" tableId="11">
+	</Dialogs>
+	<DialogParts newId="0" versionedId="-1" tableId="12">
+	</DialogParts>
+	<Sprites newId="32" versionedId="31" tableId="13">
+		<Sprite name="Unnamed" id="0" order="0" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="1" order="1" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="4" order="4" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Visionaire Karneval/ausrufezeichen.png" Transparency="2">
+				<position x="-265" y="-33"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="6" order="6" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Visionaire Karneval/Grafiken/Zettel-Westentasche-groß.png" Transparency="2">
+				<position x="-3" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="7" order="7" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="8" order="8" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="9" order="9" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="10" order="10" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="11" order="11" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="12" order="12" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="13" order="13" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="14" order="14" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="15" order="15" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="16" order="16" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="17" order="17" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="18" order="18" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="21" order="21" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Visionaire Karneval/Animations/Zettel Aus Westentasche/anm_zettel-aus-westentasche-doc7.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="23" order="6" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Visionaire Karneval/Grafiken/Absinth-groß.png" Transparency="2">
+				<position x="-3" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="25" order="25" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Visionaire Karneval/Grafiken/Absinth-klein.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="26" order="26" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Visionaire Karneval/Grafiken/Pralinenschachtel-klein.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="27" order="27" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Visionaire Karneval/Grafiken/Pralinenschachtel-groß.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="28" order="28" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Visionaire Karneval/Grafiken/Brief-schachtel-Klein.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="29" order="29" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Visionaire Karneval/Grafiken/Brief-Schachtel-groß.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="30" order="30" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Visionaire Karneval/Ton An.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="31" order="31" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Visionaire Karneval/Grafiken/Ton-aus.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+	</Sprites>
+	<Texts newId="162" versionedId="161" tableId="14">
+		<Text name="Id: 0 - LMB: LMB click" id="0" order="0" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 1 - LMB: LMB click" id="1" order="1" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 2 - : Spieler" id="2" order="2" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Investigation" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 3 - : Tatort" id="3" order="3" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="TATORT" path="" int="1"/>
+				<text Text="CRIME SCENE" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 4 - Tatort: obj_direktor" id="4" order="4" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Direktor" path="" int="0"/>
+				<text Text="Direktor" path="" int="1"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 5 - : " id="5" order="5" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 24 - Tatort: obj_direktor: 'LMB click' executed (immediate)" id="24" order="24" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="&quot;Der Direktor ist mausetot.&quot;" path="" int="0"/>
+				<text Text="Der Direktor ist mausetot.&lt;br/&gt;Aber ich sehe keine Verletzungen..." path="" int="1"/>
+				<text Text="He's dead as a doornail. But I don't see any injuries..." path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 25 - Tatort: obj_arzt" id="25" order="25" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Arzt" path="" int="0"/>
+				<text Text="Arzt" path="" int="1"/>
+				<text Text="Doctor" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 26 - Tatort: obj_arzt: 'LMB click' executed (immediate)" id="26" order="24" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="&quot;Dr. Robert Thomas ist tot&quot;" path="" int="0"/>
+				<text Text="Dr. Robert Thomas ist hinüber..." path="" int="1"/>
+				<text Text="Dr. Robert Thomas is dead." path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 27 - Tatort: obj_absinthlache-auf-boden" id="27" order="27" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Eine grüne Flüssigkeit" path="" int="1"/>
+				<text Text="A green liquid" path="" int="2"/>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 28 - Tatort: obj_absinthlache-auf-boden: 'LMB click' executed (immediate)" id="28" order="24" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="&quot;Dr. Robert Thomas ist tot&quot;" path="" int="0"/>
+				<text Text="Hm, dem Geruch nach zu urteilen &lt;br/&gt;scheint das Absinth zu sein!" path="" int="1"/>
+				<text Text="According to the smell this is absinth!" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 30 - Tatort: obj_westentasche" id="30" order="30" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Westentasche" path="" int="1"/>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 42 - Tatort: obj_westentasche: Left click" id="42" order="24" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Was ist denn das?&lt;br/&gt;Da steckt doch was drin!" path="" int="0"/>
+				<text Text="Was ist denn das?&lt;br/&gt;Da steckt doch was drin!" path="" int="1"/>
+				<text Text="He's dead as a doornail. But I don't see any injuries..." path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 64 - Tatort: _obj_westentasche_aktiv" id="64" order="64" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 65 - Tatort: _obj_westentasche_anim_aktiv" id="65" order="65" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 72 - Tatort: _obj_westentasche_img_zettel_groß_aktiv" id="72" order="72" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 74 - Inventory: Slot1" id="74" order="74" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 75 - Inventory: Slot1" id="75" order="75" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 76 - Inventory: Slot2" id="76" order="76" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 77 - Inventory: Slot2" id="77" order="77" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 78 - Inventory: Slot3" id="78" order="78" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 79 - Inventory: Slot3" id="79" order="79" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 80 - Inventory: Slot4" id="80" order="80" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 81 - Inventory: Slot4" id="81" order="81" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 82 - Inventory: Slot5" id="82" order="82" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 83 - Inventory: Slot5" id="83" order="83" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 84 - Inventory: Slot6" id="84" order="84" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 85 - Inventory: Slot6" id="85" order="85" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 97 - Tatort: _obj_westentasche_anim__zettel_endbild" id="97" order="97" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 147 - Tatort: _obj_absinthflasche_img_groß_aktiv" id="147" order="72" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 150 - Tatort: obj_flasch-mit-absinth" id="150" order="150" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Absinthflasche" path="" int="0"/>
+				<text Text="Absinthflasche" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 151 - Tatort: obj_flasch-mit-absinth: Left click" id="151" order="24" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Die Absinthflasche ist offen und es fehlt etwas Flüssigkeit...&lt;br/&gt;Und sie ist staubig!" path="" int="0"/>
+				<text Text="Die Flasche ist offen und nicht mehr ganz voll.&lt;br/&gt;Und sie ist sehr staubig..." path="" int="1"/>
+				<text Text="He's dead as a doornail. But I don't see any injuries..." path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 152 - Tatort: obj_pralinenschachtel" id="152" order="152" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Pralinenschachtel" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 153 - Tatort: _obj_pralinenschachtel_img_groß_aktiv" id="153" order="153" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 154 - Tatort: obj_blutlache" id="154" order="154" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Blut" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 155 - Tatort: obj_blutlache: Left click" id="155" order="24" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Was ist denn das?&lt;br/&gt;Da steckt doch was drin!" path="" int="0"/>
+				<text Text="Der Doktor hat eine Kopfverletzung.&lt;br/&gt;Ob er daran gestorben ist?" path="" int="1"/>
+				<text Text="He's dead as a doornail. But I don't see any injuries..." path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 156 - Tatort: obj_pralinenschachtel: Left click" id="156" order="24" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Was ist denn das?&lt;br/&gt;Da steckt doch was drin!" path="" int="0"/>
+				<text Text="Eine der Pralinen scheint zu fehlen..." path="" int="1"/>
+				<text Text="He's dead as a doornail. But I don't see any injuries..." path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 157 - Tatort: obj_brief_heirat" id="157" order="157" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Brief" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 158 - Tatort: _obj_brief_heirat_img_groß_aktiv" id="158" order="158" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 159 - Tatort: obj_brief_heirat: Left click" id="159" order="24" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Was ist denn das?&lt;br/&gt;Da steckt doch was drin!" path="" int="0"/>
+				<text Text="Der Brief scheint zur &lt;br/&gt;Pralinenschachtel zu gehören" path="" int="1"/>
+				<text Text="He's dead as a doornail. But I don't see any injuries..." path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 160 - Sound: Sound on" id="160" order="160" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 161 - Sound: Sound on" id="161" order="161" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+	</Texts>
+	<Cursors newId="1" versionedId="0" tableId="15">
+		<Cursor name="idle_maus" id="0" order="0" lastModified="-1">
+			<CursorActiveAnimation parentLink="T" id="1" tableId="9" LinkAny="F"/>
+			<CursorInactiveAnimation parentLink="T" id="2" tableId="9" LinkAny="F"/>
+		</Cursor>
+	</Cursors>
+	<CommentSets newId="0" versionedId="-1" tableId="16">
+	</CommentSets>
+	<Outfits newId="1" versionedId="0" tableId="17">
+		<Outfit name="Unnamed" id="0" order="0" lastModified="-1" OutfitCharacterSpeed="350" OutfitModel="" OutfitCameraHeight="0" OutfitCameraAngle="0" OutfitUseLight="F" OutfitLightPosX="1.000000" OutfitLightPosY="1.000000" OutfitLightPosZ="1.000000" OutfitLightColor="9345433" OutfitModelScaleFactor="100" OutfitModelUseToonShading="F" OutfitModelToonNuances="3" OutfitModelShowOutline="F" OutfitModelOutlineColor="0" OutfitModelOutlineWidth="5" OutfitAmbientLightColor="6717311" OutfitModelShadowVisibility="50" OutfitRandomMinTime="10000" OutfitRandomMaxTime="30000" OutfitModelShadow="2" OutfitModelAmbientOcclusion="50" OutfitSlideWalkAnimation="T" OutfitModelTurnSpeed="100">
+			<OutfitWalkAnimations>
+				<Link parentLink="T" id="3" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="4" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="5" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="6" tableId="9" LinkAny="F"/>
+			</OutfitWalkAnimations>
+			<OutfitTalkAnimations>
+			</OutfitTalkAnimations>
+			<OutfitRandomAnimations>
+			</OutfitRandomAnimations>
+			<OutfitCharacterAnimations>
+			</OutfitCharacterAnimations>
+			<OutfitStandingAnimations>
+				<Link parentLink="T" id="7" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="8" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="9" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="10" tableId="9" LinkAny="F"/>
+			</OutfitStandingAnimations>
+			<OutfitModelTextures>
+			</OutfitModelTextures>
+			<OutfitModelFiles>
+			</OutfitModelFiles>
+			<OutfitTurnAnimations>
+			</OutfitTurnAnimations>
+		</Outfit>
+	</Outfits>
+	<Languages newId="3" versionedId="2" tableId="18">
+		<Language name="Unnamed" id="0" order="0" lastModified="-1">
+		</Language>
+		<Language name="Deutsch" id="1" order="1" lastModified="-1">
+		</Language>
+		<Language name="Englisch" id="2" order="2" lastModified="-1">
+		</Language>
+	</Languages>
+	<Values newId="0" versionedId="-1" tableId="20">
+	</Values>
+	<Particles newId="0" versionedId="-1" tableId="22">
+	</Particles>
+	<ParticleContainers newId="0" versionedId="-1" tableId="23">
+	</ParticleContainers>
+	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
+	</CommentSetEntries>
+	<AnimationFrames newId="6" versionedId="5" tableId="28">
+		<AnimationFrame name="zettelauswestentasche_in_obj_westentasche - Property Frame" id="4" order="0" lastModified="-1" AnimationFrameIndex="0" AnimationFrameSound="Visionaire Karneval/Audios/zettel_aus_westentasche.ogg" AnimationFrameSoundVolume="0" AnimationFrameSoundBalance="0">
+			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</AnimationFrame>
+		<AnimationFrame name="anim_Zettel_kommt_aus_Westentasche - Property Frame" id="5" order="0" lastModified="-1" AnimationFrameIndex="0" AnimationFrameSound="Visionaire Karneval/Audios/zettel_aus_westentasche.ogg" AnimationFrameSoundVolume="0" AnimationFrameSoundBalance="0">
+			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</AnimationFrame>
+	</AnimationFrames>
+	<WaySystems newId="0" versionedId="-1" tableId="29">
+	</WaySystems>
+	<Scripts newId="0" versionedId="-1" tableId="30">
+	</Scripts>
+	<InterfaceClasses newId="6" versionedId="5" tableId="31">
+		<InterfaceClass name="Main interface" id="0" order="0" lastModified="-1" InterfaceClassName="MainInterface">
+		</InterfaceClass>
+		<InterfaceClass name="Inventory" id="1" order="1" lastModified="-1" InterfaceClassName="Inventory">
+		</InterfaceClass>
+		<InterfaceClass name="Secondary interface" id="2" order="2" lastModified="-1" InterfaceClassName="SecondaryInterface">
+		</InterfaceClass>
+		<InterfaceClass name="Options interface" id="3" order="3" lastModified="-1" InterfaceClassName="OptionsInterface">
+		</InterfaceClass>
+		<InterfaceClass name="Miscellaneous" id="4" order="4" lastModified="-1" InterfaceClassName="Miscellaneous">
+		</InterfaceClass>
+		<InterfaceClass name="NarrBoxInterface" id="5" order="5" lastModified="-1" InterfaceClassName="NarrBoxInterface">
+		</InterfaceClass>
+	</InterfaceClasses>
+	<ActionAreas newId="0" versionedId="-1" tableId="32">
+	</ActionAreas>
+	<AreaActions newId="0" versionedId="-1" tableId="33">
+	</AreaActions>
+	<Shaders newId="0" versionedId="-1" tableId="36">
+	</Shaders>
+	<AudioBusses newId="4" versionedId="3" tableId="37">
+		<AudioBus name="eMusicVolume" id="0" order="0" lastModified="-1" AudioBusType="1" AudioBusSettings="">
+			<AudioBusLinks>
+			</AudioBusLinks>
+			<AudioBusValues>
+			</AudioBusValues>
+			<AudioBusEvents>
+			</AudioBusEvents>
+			<AudioBusOutputBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AudioBusLinkedObjects>
+			</AudioBusLinkedObjects>
+		</AudioBus>
+		<AudioBus name="eSoundVolume" id="1" order="1" lastModified="-1" AudioBusType="1" AudioBusSettings="">
+			<AudioBusLinks>
+			</AudioBusLinks>
+			<AudioBusValues>
+			</AudioBusValues>
+			<AudioBusEvents>
+			</AudioBusEvents>
+			<AudioBusOutputBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AudioBusLinkedObjects>
+			</AudioBusLinkedObjects>
+		</AudioBus>
+		<AudioBus name="eSpeechVolume" id="2" order="2" lastModified="-1" AudioBusType="1" AudioBusSettings="">
+			<AudioBusLinks>
+			</AudioBusLinks>
+			<AudioBusValues>
+			</AudioBusValues>
+			<AudioBusEvents>
+			</AudioBusEvents>
+			<AudioBusOutputBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AudioBusLinkedObjects>
+			</AudioBusLinkedObjects>
+		</AudioBus>
+		<AudioBus name="eMovieVolume" id="3" order="3" lastModified="-1" AudioBusType="1" AudioBusSettings="">
+			<AudioBusLinks>
+			</AudioBusLinks>
+			<AudioBusValues>
+			</AudioBusValues>
+			<AudioBusEvents>
+			</AudioBusEvents>
+			<AudioBusOutputBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AudioBusLinkedObjects>
+			</AudioBusLinkedObjects>
+		</AudioBus>
+	</AudioBusses>
+	<Events newId="0" versionedId="-1" tableId="38">
+	</Events>
+	<Plugins newId="0" versionedId="-1" tableId="39">
+	</Plugins>
+	<BlockContainers newId="0" versionedId="-1" tableId="40">
+	</BlockContainers>
+	<Blocks newId="0" versionedId="-1" tableId="41">
+	</Blocks>
+	<Curves newId="0" versionedId="-1" tableId="42">
+	</Curves>
+	<Components newId="0" versionedId="-1" tableId="43">
+	</Components>
+</VisionaireAdventure>
